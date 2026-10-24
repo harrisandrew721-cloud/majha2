@@ -1,0 +1,9 @@
+Majha Improve Homes — Ready-to-upload website
+
+For Cloudflare Pages direct upload: upload all files inside this ZIP together. The index.html, interactive.js, styles.css and assets directory must stay at the ZIP root.
+
+For a quick local preview, unzip and open index.html. The illustrative Pexels images and Google Fonts need an internet connection.
+
+The original section layout, navigation, carousels, project gallery, FAQ, phone and email links are retained.
+
+Client review note: illustrative stock photos are not examples of completed Majha work.
