@@ -39,6 +39,9 @@ function Header() {
 <a href="#landscaping">Landscaping & Turfing</a>
 <a href="#concreting">Driveways & Concreting</a>
 <a href="#fencing">Fencing & Gates</a>
+<a href="#renovation">Renovations</a>
+<a href="#newbuilds">New Builds</a>
+<a href="#extensions">Extensions</a>
 <a href="#about">About Us</a>
 <a href="#areas">Service Areas</a>
 </nav>
@@ -148,6 +151,30 @@ function FeaturedServices() {
 <h3>A fresh new look</h3>
 <p>Renovation work that connects your indoor and outdoor improvements with one trusted local team.</p>
 <a className="text-link" href="#renovation">Explore Service →</a>
+</div>
+</article>
+<article className="offer-card">
+<div className="offer-photo">
+<img src="https://images.pexels.com/photos/39151698/pexels-photo-39151698.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="New home build under construction" loading="lazy" />
+<span className="tag">BUILD FROM THE GROUND UP</span>
+</div>
+<div className="offer-body">
+<p className="eyebrow">NEW BUILDS</p>
+<h3>Start from scratch</h3>
+<p>New home construction tailored to your block, your brief and your budget with one local team from start to finish.</p>
+<a className="text-link" href="#newbuilds">Explore Service →</a>
+</div>
+</article>
+<article className="offer-card">
+<div className="offer-photo">
+<img src="https://images.pexels.com/photos/4692281/pexels-photo-4692281.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="House extension under construction" loading="lazy" />
+<span className="tag">MORE ROOM TO LIVE</span>
+</div>
+<div className="offer-body">
+<p className="eyebrow">EXTENSIONS</p>
+<h3>Grow your home</h3>
+<p>Extend your living space with a seamless addition that matches your existing home and lifestyle.</p>
+<a className="text-link" href="#extensions">Explore Service →</a>
 </div>
 </article>
 </Carousel>
@@ -272,6 +299,26 @@ function Services() {
 <h3>Home Renovations</h3>
 <p>Breathe new life into your home with renovation work that blends indoor and outdoor improvements. From structural changes to finishing details, our team helps you plan and complete your renovation with one trusted local contractor.</p>
 <a className="pill" href="mailto:majhaimprovehomes@gmail.com?subject=Renovation%20enquiry">Enquire About Renovations</a>
+</div>
+</article>
+<article className="service-row reverse" id="newbuilds">
+<div className="service-photo">
+<img loading="lazy" src="https://images.pexels.com/photos/39151698/pexels-photo-39151698.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="New home build framing under construction" />
+</div>
+<div className="service-copy">
+<h3>New Builds</h3>
+<p>Build your new home with a local team you can trust. Majha Improve Homes handles new home construction from the ground up, working with you on the design, structure and finishing details to create a home that suits your block and your lifestyle.</p>
+<a className="pill" href="mailto:majhaimprovehomes@gmail.com?subject=New%20build%20enquiry">Enquire About New Builds</a>
+</div>
+</article>
+<article className="service-row" id="extensions">
+<div className="service-photo">
+<img loading="lazy" src="https://images.pexels.com/photos/4692281/pexels-photo-4692281.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="House extension construction in progress" />
+</div>
+<div className="service-copy">
+<h3>Extensions</h3>
+<p>Need more space? An extension adds room and value to your home without the need to move. From a new bedroom or living area to a covered outdoor room, we help you plan and build an addition that blends seamlessly with your existing home.</p>
+<a className="pill" href="mailto:majhaimprovehomes@gmail.com?subject=Extension%20enquiry">Enquire About Extensions</a>
 </div>
 </article>
 </section>);
@@ -411,6 +458,8 @@ function Footer() { return (<footer>
 <a href="#fencing">Fencing & Gates</a>
 <a href="#retaining">Retaining Walls</a>
 <a href="#renovation">Renovations</a>
+<a href="#newbuilds">New Builds</a>
+<a href="#extensions">Extensions</a>
 </div>
 <div>
 <h4>EXPLORE</h4>
