@@ -138,6 +138,18 @@ function FeaturedServices() {
 <a className="text-link" href="#retaining">Explore Service →</a>
 </div>
 </article>
+<article className="offer-card">
+<div className="offer-photo">
+<img src="https://images.pexels.com/photos/36035073/pexels-photo-36035073.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Home renovation work in progress" loading="lazy" />
+<span className="tag">BRING YOUR HOME TO LIFE</span>
+</div>
+<div className="offer-body">
+<p className="eyebrow">HOME RENOVATIONS</p>
+<h3>A fresh new look</h3>
+<p>Renovation work that connects your indoor and outdoor improvements with one trusted local team.</p>
+<a className="text-link" href="#renovation">Explore Service →</a>
+</div>
+</article>
 </Carousel>
 </section>);
 }
@@ -250,6 +262,16 @@ function Services() {
 <h3>Retaining Walls</h3>
 <p>Bring structure and definition to your outdoor areas. Majha Improve Homes provides retaining wall construction and hard structural landscaping tailored to your project's requirements.</p>
 <a className="pill" href="mailto:majhaimprovehomes@gmail.com?subject=Retaining%20wall%20enquiry">Enquire About Retaining Walls</a>
+</div>
+</article>
+<article className="service-row" id="renovation">
+<div className="service-photo">
+<img loading="lazy" src="https://images.pexels.com/photos/36035073/pexels-photo-36035073.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Home interior under renovation" />
+</div>
+<div className="service-copy">
+<h3>Home Renovations</h3>
+<p>Breathe new life into your home with renovation work that blends indoor and outdoor improvements. From structural changes to finishing details, our team helps you plan and complete your renovation with one trusted local contractor.</p>
+<a className="pill" href="mailto:majhaimprovehomes@gmail.com?subject=Renovation%20enquiry">Enquire About Renovations</a>
 </div>
 </article>
 </section>);
@@ -388,6 +410,7 @@ function Footer() { return (<footer>
 <a href="#concreting">Driveways & Concreting</a>
 <a href="#fencing">Fencing & Gates</a>
 <a href="#retaining">Retaining Walls</a>
+<a href="#renovation">Renovations</a>
 </div>
 <div>
 <h4>EXPLORE</h4>
